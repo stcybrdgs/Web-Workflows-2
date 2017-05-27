@@ -1,0 +1,13 @@
+{
+  "name": "sassy",
+  "version": "0.0.1",
+  "description": "Another project to showcase workflows, this time with Sass, Bourbon, and Susy",
+  "repository": {
+    "type": "git",
+    "url": "?"
+  },
+  "author": "Stacy Bridges",
+  "devDependencies": {
+    "": ""
+  }
+}
