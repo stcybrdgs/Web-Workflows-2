@@ -1,13 +1,18 @@
 {
-  "name": "sassy",
+  "name": "workflows-2",
   "version": "0.0.1",
   "description": "Another project to showcase workflows, this time with Sass, Bourbon, and Susy",
+  "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "?"
+    "url": "https://github.com/stcybrdgs/workflows-2.git"
   },
   "author": "Stacy Bridges",
   "devDependencies": {
-    "": ""
+    "bower": "^1.8.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2"
   }
 }

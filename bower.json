@@ -1,0 +1,22 @@
+{
+  "name": "workflows-2",
+  "description": "Another project to showcase workflows, this time with Sass, Bourbon, and Susy",
+  "main": "index.html",
+  "authors": [
+    "Stacy Bridges"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/stcybrdgs/workflows-2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bourbon": "^4.3.4",
+    "susy": "^2.2.12",
+    "normalize-css": "^7.0.0"
+  }
+}
