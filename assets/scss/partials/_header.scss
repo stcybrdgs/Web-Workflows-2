@@ -1,6 +1,13 @@
 // _header.scss
+.site-header {
+	background: $drkGray;
+	border: 1px solid transparent;
+}
+.site-title {
+	color: $ltGray + 50;
+}
 .header-nav {
 	a {
-		color: $gray;
+		color: $ltGray + 50;
 	}
 }

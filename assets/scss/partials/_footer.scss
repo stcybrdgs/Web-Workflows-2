@@ -1,6 +1,23 @@
 // _footer.scss
+.site-footer {
+	background: $drkGray;
+		border: 1px solid transparent;
+}
 .social-menu {
 	a {
+		text-decoration: none;
 		color: $drkBlue;
+		&.twitter:before { // see documentation on FontAwesome
+			content:'\f099';
+			@include social-media;
+		}
+		&.facebook:before {
+			content:'\f09a';
+			@include social-media;
+		}
+		&.linkedin:before {
+			content:'\f0e1';
+			@include social-media;
+		}
 	}
 }
