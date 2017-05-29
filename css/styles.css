@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 /* Coolors Exported Palette - coolors.co/8f9e8f-6d6868-f7e8be-d3ede9-b6e2b1 */
-/* RGB */
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.wrap {
+  padding: 20px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu", sans-serif; }
+
 nav ul {
   list-style: none; }
 
@@ -22,17 +32,17 @@ nav a {
     content: '\f099';
     font-family: FontAwesome;
     padding-right: 5px;
-    font-size: 1.25em; }
+    font-size: 2em; }
   .social-menu a.facebook:before {
     content: '\f09a';
     font-family: FontAwesome;
     padding-right: 5px;
-    font-size: 1.25em; }
+    font-size: 2em; }
   .social-menu a.linkedin:before {
     content: '\f0e1';
     font-family: FontAwesome;
     padding-right: 5px;
-    font-size: 1.25em; }
+    font-size: 2em; }
 
 .site-header {
   background: #262626;

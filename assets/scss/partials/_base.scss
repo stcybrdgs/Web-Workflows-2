@@ -1,4 +1,16 @@
 // _base.scss
+//div { border: 1px solid red; }
+body {
+	font-family: $bodyFont;
+}
+
+.wrap {
+	padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $headingFont;
+}
 nav {
 	ul {
 		list-style: none;
