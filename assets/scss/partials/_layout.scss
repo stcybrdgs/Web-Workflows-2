@@ -68,3 +68,11 @@ $susy: (
 		//padding-top: 20px;
 	}
 }
+
+.testimonial {
+	@include susy-breakpoint($large) {
+		@include span(6);
+		@include push(3);
+		@include post(3);
+	}
+}

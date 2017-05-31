@@ -3,8 +3,19 @@
 	@include size(100% auto); // width: 2em; height: 2em;
 }
 .customer img {
-	@include size(150px);
 	border-radius: $default-border-radius;
+	@include size(150px);
+/*
+	@include susy-breakpoint($large) {
+		@include size(25%);
+	}
+	@include susy-breakpoint($medium) {
+		@include size(30%);
+	}
+	@include susy-breakpoint($small) {
+		@include size(60%);
+	}
+	*/
 }
 
 .hero .wrap {
@@ -20,4 +31,19 @@
 .hero .overlay {
 	background-color: $ltBlue;
 	opacity: 0.8;
+}
+
+.testimonials {
+	background: $ltBlue;
+	color: black;
+	text-align: center;
+
+	.name {
+		display: block;
+	}
+
+	.quote {
+		font-style: italic;
+		font-family: 'Raleway';
+	}
 }

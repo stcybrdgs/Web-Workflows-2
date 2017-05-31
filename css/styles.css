@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -552,14 +553,33 @@ nav a {
       float: right;
       margin-right: 0; } }
 
+@media (min-width: 960px) {
+  .testimonial {
+    width: 49.3975903614%;
+    float: left;
+    margin-right: 1.2048192771%;
+    margin-left: 25.3012048193%;
+    margin-right: 25.3012048193%; } }
+
 .feature img {
   height: auto;
   width: 100%; }
 
 .customer img {
+  border-radius: 20px;
   height: 150px;
   width: 150px;
-  border-radius: 20px; }
+  /*
+	@include susy-breakpoint($large) {
+		@include size(25%);
+	}
+	@include susy-breakpoint($medium) {
+		@include size(30%);
+	}
+	@include susy-breakpoint($small) {
+		@include size(60%);
+	}
+	*/ }
 
 .hero .wrap {
   padding: 60px; }
@@ -572,6 +592,16 @@ nav a {
 .hero .overlay {
   background-color: #d3ede9;
   opacity: 0.8; }
+
+.testimonials {
+  background: #d3ede9;
+  color: black;
+  text-align: center; }
+  .testimonials .name {
+    display: block; }
+  .testimonials .quote {
+    font-style: italic;
+    font-family: 'Raleway'; }
 
 body {
   background-color: #f7e8e1; }
