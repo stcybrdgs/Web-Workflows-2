@@ -1,2 +1,2 @@
 # Workflows-2
-This project is another exercise in workflow management (this time using Sass, Bourbon, and Susy).
+This project is an exercise in workflow management using Grunt, Bower, Sass, Bourbon, and Susy.
