@@ -1,1 +1,23 @@
 // _modules.scss
+.feature img {
+	@include size(100% auto); // width: 2em; height: 2em;
+}
+.customer img {
+	@include size(150px);
+	border-radius: $default-border-radius;
+}
+
+.hero .wrap {
+	padding: 60px;
+	h2, p {
+		color: black;	
+		line-height: 1.8;
+		font-size: 1.2em;
+		text-align: center;
+	}
+}
+
+.hero .overlay {
+	background-color: $ltBlue;
+	opacity: 0.8;
+}

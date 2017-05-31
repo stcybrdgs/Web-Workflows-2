@@ -2,12 +2,23 @@
 .site-header {
 	background: $drkGray;
 	border: 1px solid transparent;
-}
-.site-title {
+	text-align: center;
+
+	.site-branding {
+		margin: 0;
+	}
+	
+	.site-title {
 	color: $ltGray + 50;
+	}
 }
+
 .header-nav {
 	a {
 		color: $ltGray + 50;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
 	}
 }

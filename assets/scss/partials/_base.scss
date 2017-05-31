@@ -2,6 +2,8 @@
 //div { border: 1px solid red; }
 body {
 	font-family: $bodyFont;
+	font-size: 16px;
+	line-height: 1.2;
 }
 
 .wrap {
@@ -10,7 +12,39 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $headingFont;
+	color: $ltGray;
 }
+
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.4em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 1.2em; }
+h5 { font-size: 1.1em; }
+h6 { font-size: 1.0em; }
+
+// FORMS
+#{$all-text-inputs} {
+  border: 1px solid $drkGray;
+}
+
+#{$all-text-inputs-focus},
+#{$all-text-inputs-hover},
+#{$all-text-inputs-active} {
+  border: 1px solid $drkGray;
+  background-color: $drkLemon;
+}
+
+// BUTTONS
+#{$all-buttons} {
+  background-color: $drkLemon;
+}
+
+#{$all-buttons-focus},
+#{$all-buttons-hover}, 
+#{$all-buttons-active} {
+  background-color: $ltGreen;
+}
+
 nav {
 	ul {
 		list-style: none;

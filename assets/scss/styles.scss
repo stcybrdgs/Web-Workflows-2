@@ -1,6 +1,9 @@
 // styles.scss
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import './bower_components/normalize-css/normalize';
+@import './bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import './bower_components/susy/sass/susy';
 @import 'partials/variables';
 @import 'partials/mixins';
 @import 'partials/base';
@@ -8,9 +11,6 @@
 @import 'partials/header';
 @import 'partials/layout';
 @import 'partials/modules';
-@import './bower_components/normalize-css/normalize';
-@import './bower_components/bourbon/app/assets/stylesheets/bourbon';
-@import './bower_components/susy/sass/susy';
 
 body { 
 	background-color: $ltLemon; 

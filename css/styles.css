@@ -1,59 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
-/* Coolors Exported Palette - coolors.co/8f9e8f-6d6868-f7e8be-d3ede9-b6e2b1 */
-body {
-  font-family: "Open Sans", sans-serif; }
-
-.wrap {
-  padding: 20px; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Ubuntu", sans-serif; }
-
-nav ul {
-  list-style: none; }
-
-nav li {
-  display: inline-block; }
-
-nav a {
-  padding: 0 10px; }
-  nav a:hover {
-    color: #859e8f; }
-
-.site-footer {
-  background: #262626;
-  border: 1px solid transparent; }
-
-.social-menu a {
-  text-decoration: none;
-  color: #78ede9; }
-  .social-menu a.twitter:before {
-    content: '\f099';
-    font-family: FontAwesome;
-    padding-right: 5px;
-    font-size: 2em; }
-  .social-menu a.facebook:before {
-    content: '\f09a';
-    font-family: FontAwesome;
-    padding-right: 5px;
-    font-size: 2em; }
-  .social-menu a.linkedin:before {
-    content: '\f0e1';
-    font-family: FontAwesome;
-    padding-right: 5px;
-    font-size: 2em; }
-
-.site-header {
-  background: #262626;
-  border: 1px solid transparent; }
-
-.site-title {
-  color: #9f9a9a; }
-
-.header-nav a {
-  color: #9f9a9a; }
-
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -444,6 +390,188 @@ template {
  */
 [hidden] {
   display: none; }
+
+/* Coolors Exported Palette - coolors.co/8f9e8f-6d6868-f7e8be-d3ede9-b6e2b1 */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.2; }
+
+.wrap {
+  padding: 20px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu", sans-serif;
+  color: #5a5a5a; }
+
+h1 {
+  font-size: 1.5em; }
+
+h2 {
+  font-size: 1.4em; }
+
+h3 {
+  font-size: 1.3em; }
+
+h4 {
+  font-size: 1.2em; }
+
+h5 {
+  font-size: 1.1em; }
+
+h6 {
+  font-size: 1.0em; }
+
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
+  border: 1px solid #262626; }
+
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
+input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover,
+input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:active, input[type="datetime-local"]:active, input[type="email"]:active, input[type="month"]:active, input[type="number"]:active, input[type="password"]:active, input[type="search"]:active, input[type="tel"]:active, input[type="text"]:active, input[type="time"]:active, input[type="url"]:active, input[type="week"]:active, input:not([type]):active, textarea:active {
+  border: 1px solid #262626;
+  background-color: #f7e8be; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  background-color: #f7e8be; }
+
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus,
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover,
+button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
+  background-color: #b6e2b1; }
+
+nav ul {
+  list-style: none; }
+
+nav li {
+  display: inline-block; }
+
+nav a {
+  padding: 0 10px; }
+  nav a:hover {
+    color: #859e8f; }
+
+.site-footer {
+  background: #262626;
+  border: 1px solid transparent;
+  text-align: center; }
+
+.social-menu a {
+  text-decoration: none;
+  color: #78ede9; }
+  .social-menu a.twitter:before {
+    content: '\f099';
+    font-family: FontAwesome;
+    padding-right: 5px;
+    font-size: 2em; }
+  .social-menu a.facebook:before {
+    content: '\f09a';
+    font-family: FontAwesome;
+    padding-right: 5px;
+    font-size: 2em; }
+  .social-menu a.linkedin:before {
+    content: '\f0e1';
+    font-family: FontAwesome;
+    padding-right: 5px;
+    font-size: 2em; }
+
+.site-header {
+  background: #262626;
+  border: 1px solid transparent;
+  text-align: center; }
+  .site-header .site-branding {
+    margin: 0; }
+  .site-header .site-title {
+    color: #8c8c8c; }
+
+.header-nav a {
+  color: #8c8c8c; }
+
+.header-nav ul {
+  margin: 0;
+  padding: 0; }
+
+.wrap {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0; }
+  .wrap:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.features::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.features .feature {
+  text-align: center; }
+  @media (min-width: 640px) and (max-width: 959px) {
+    .features .feature {
+      width: 49.3975903614%;
+      float: left;
+      margin-right: 1.2048192771%; }
+      .features .feature:nth-of-type(even) {
+        float: right;
+        margin-right: 0; } }
+  @media (min-width: 960px) {
+    .features .feature {
+      width: 24.0963855422%;
+      float: left;
+      margin-right: 1.2048192771%; }
+      .features .feature:last-child {
+        float: right;
+        margin-right: 0; } }
+
+@media (min-width: 960px) {
+  .content {
+    width: 66.265060241%;
+    float: left;
+    margin-right: 1.2048192771%; } }
+
+@media (min-width: 960px) {
+  .sidebar {
+    width: 32.5301204819%;
+    float: left;
+    margin-right: 1.2048192771%;
+    float: right;
+    margin-right: 0; } }
+
+@media (min-width: 640px) {
+  .site-branding {
+    width: 24.0963855422%;
+    float: left;
+    margin-right: 1.2048192771%; } }
+
+.header-nav {
+  padding: 20px 0px 20px 0px; }
+  @media (min-width: 640px) {
+    .header-nav {
+      width: 74.6987951807%;
+      float: right;
+      margin-right: 0; } }
+
+.feature img {
+  height: auto;
+  width: 100%; }
+
+.customer img {
+  height: 150px;
+  width: 150px;
+  border-radius: 20px; }
+
+.hero .wrap {
+  padding: 60px; }
+  .hero .wrap h2, .hero .wrap p {
+    color: black;
+    line-height: 1.8;
+    font-size: 1.2em;
+    text-align: center; }
+
+.hero .overlay {
+  background-color: #d3ede9;
+  opacity: 0.8; }
 
 body {
   background-color: #f7e8e1; }
